@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+@import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
+
+// COLOR PALETTE:
+// https://coolors.co/palette/a8e8f9-00537a-013c58-f5a201-ffba42-ffd35b
+header {
+  font-family: "Roboto", sans-serif;
+  color: #023047;
+  background: rgb(245, 162, 1);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 162, 1, 1) 0%,
+    rgba(255, 186, 66, 1) 100%
+  );
+}
+
+header h1 {
+  background: -webkit-linear-gradient(#013c58, #00537a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header h5 {
+  font-family: "Playfair Display", serif;
+
+  font-style: normal;
+  font-weight: 100;
+  background: -webkit-linear-gradient(#013c58, #00537a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+    font-family: "Playfair Display", serif;
+    // padding-right: 37%;
+  font-style: normal;
+  font-weight: 100;
+  background: -webkit-linear-gradient(#f1faee, #f7ede2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#divider {
+  border: none;
+  width: 63%;
+  //   margin-left: auto;
+//   margin-right: auto;
+  height: 5px;
+  background-color: #ffb703;
+}
+
+.card-title {
+  background: -webkit-linear-gradient(#013c58, #00537a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-text {
+  background: -webkit-linear-gradient(#013c58, #00537a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section h3 {
+  background: -webkit-linear-gradient(#013c58, #00537a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+footer {
+  background: rgb(245, 162, 1);
+  background: linear-gradient(
+    360deg,
+    rgba(245, 162, 1, 1) 0%,
+    rgba(255, 186, 66, 1) 100%
+  );
+}

@@ -1,0 +1,246 @@
+<header>
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <!-- Anchor for LOGO -->
+      <a class="navbar-brand me-2" href="https://mdbgo.com/">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+          height="16"
+          alt="MDB Logo"
+          loading="lazy"
+          style="margin-top: -1px"
+        />
+      </a>
+      <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">ACASA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">GALERIE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SERVICII</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Intro image settings -->
+  <style>
+    /* Default height for small devices */
+    #intro-image {
+      height: 400px;
+    }
+
+    /* Height for devices larger than 992px */
+    @media (min-width: 992px) {
+      #intro-image {
+        height: 600px;
+      }
+    }
+  </style>
+  <!-- Background image -->
+  <div
+    id="intro-image"
+    class="p-5 text-center bg-image"
+    style="background-image: url('../assets/img/AdobeStock1.jpeg')"
+  >
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+      <div class="d-flex h-100 p-3">
+        <div>
+          <h1
+            class="display-2 text-xl-start text-md-start text-lg-start text-sm-center"
+          >
+            IZOLARE TERMICA
+          </h1>
+          <div class="justify-content-sm-center">
+            <hr id="divider" />
+          </div>
+          <h5
+            class="fs-3 mb-3 text-xl-start text-lg-start text-md-start text-sm-center"
+          >
+            izolam termic cu spuma poliuretanica
+          </h5>
+          <p
+            class="fs-6 fw-bolder mb-3 text-xl-start text-lg-start text-md-start text-sm-center"
+          >
+            oferim servicii de izolare termica pentru case si blocuri, mansarde
+            si subsoluri, hale comerciale si cabane.
+          </p>
+
+          <a
+            class="btn btn-light btn-lg mt-5 t align-self-baseline align-items-end"
+            href="#"
+            role="button"
+            target="_blank"
+            >Whatsapp</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Background image -->
+</header>
+
+<!-- Servicii-Carduri -->
+<section>
+  <div class="mb-0 mt-5">
+    <h3 class="display-6 mb-3 mt-3">Servicii</h3>
+  </div>
+  <!-- Cards -->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp"
+          class="card-img-top"
+          alt="Skyscrapers"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp"
+          class="card-img-top"
+          alt="Los Angeles Skyscrapers"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This card has supporting text below as a natural lead-in to
+            additional content.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Servicii-Carduri -->
+
+<!-- Galerie -->
+<section>
+  <div class="mb-3 mt-5">
+    <h3 class="display-6 mb-0 mt-3">Galerie</h3>
+  </div>
+  <!-- Carousel -->
+  <!-- Carousel wrapper -->
+  <div>
+    <mdb-carousel
+      [animation]="'slide'"
+      class="ms-xxl-5 me-xxl-5 ms-xl-5 ms-xl-5 ms-lg-5 me-lg-5 ms-md-2 me-md-2 ps-xxl-5 pe-xxl-5"
+    >
+      <mdb-carousel-item>
+        <img
+          class="d-block w-100"
+          src="../assets/img/AdobeStock2.jpeg"
+          alt="First slide"
+        />
+      </mdb-carousel-item>
+      <mdb-carousel-item>
+        <img
+          class="d-block w-100"
+          src="../assets/img/AdobeStock3.jpeg"
+          alt="Second slide"
+        />
+      </mdb-carousel-item>
+      <mdb-carousel-item>
+        <img
+          class="d-block w-100"
+          src="../assets/img/AdobeStock4.jpeg"
+          alt="Third slide"
+        />
+      </mdb-carousel-item>
+    </mdb-carousel>
+  </div>
+  <!-- /Carousel -->
+</section>
+<!-- /Galerie -->
+
+<!-- Formular Contact -->
+<section>
+  <div class="mb-3 mt-5">
+    <h3 class="display-6 mb-0 mt-3">Formular Contact</h3>
+  </div>
+
+  <div class="mt-3">
+    <form action="https://formsubmit.co/bogda995@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Email izolatii termice">
+      <input type="text" name="name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="text" name="message" placeholder="Scrie mesajul aici.."/>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+</section>
+<!-- /Formular Contact -->
+
+<!-- FOOTER -->
+<footer class="text-center text-white">
+  <!-- Grid container -->
+  <div class="container pt-2 mt-5">
+    <!-- Section: Social media -->
+    <section class="mb-1">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: #f5a201">
+    <!-- Another type of style for Copyright section     style="background-color: rgba(0,0,0, 0,9)" -->
+    © 2020 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
