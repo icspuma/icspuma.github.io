@@ -1,0 +1,21 @@
+[debug] [2022-06-18T13:26:25.559Z] ----------------------------------------------------------------------
+[debug] [2022-06-18T13:26:25.561Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bogda\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-18T13:26:25.562Z] CLI Version:   11.1.0
+[debug] [2022-06-18T13:26:25.562Z] Platform:      win32
+[debug] [2022-06-18T13:26:25.562Z] Node Version:  v16.15.0
+[debug] [2022-06-18T13:26:25.563Z] Time:          Sat Jun 18 2022 16:26:25 GMT+0300 (Ora de vară a Europei de Est)
+[debug] [2022-06-18T13:26:25.564Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-18T13:26:25.573Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-18T13:26:25.575Z] > authorizing via signed-in user (icspumap@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\bogda\Angular\mdb5-free-angular
+
