@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![MDB Logo](https://mdbootstrap.com/img/Marketing/general/logo/medium/mdb-angular.png)
 
 # MDB 5 Angular
@@ -193,3 +194,7 @@ Trusted by <b>2 000 000+</b> developers & designers. Used by companies like
 </table>
 
 and more.
+=======
+# izolatii-html-css-js
+Clean code with web design 
+>>>>>>> 553417da9a7f294c812d59f6d8ecb17064ac0d17
