@@ -8,10 +8,54 @@
 
 // COLOR PALETTE:
 // https://coolors.co/palette/a8e8f9-00537a-013c58-f5a201-ffba42-ffd35b
-header {
+
+nav {
   font-family: "Roboto", sans-serif;
-  color: #023047;
-  background: rgb(245, 162, 1);
+  color: #f1faee;
+  // background: rgb(245, 162, 1);
+}
+@media (max-width: 991px) {
+  .navbar-scroll {
+    background: linear-gradient(
+      90deg,
+      rgba(245, 162, 1, 1) 0%,
+      rgba(255, 186, 66, 1) 100%
+    );
+  }
+     
+  .navbar-scroll .navbar-brand,
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+    color: #f1faee !important;
+  }         
+}
+
+.navbar-brand {
+  letter-spacing: 3px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.navbar-scroll .navbar-brand,
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+  color: #f1faee;
+}
+
+.navbar-scroll {
+  box-shadow: none;
+}
+
+.navbar-scrolled {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.navbar-scrolled .navbar-brand,
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars {
+  color: #f1faee;
+}
+
+.navbar-scrolled {
   background: linear-gradient(
     90deg,
     rgba(245, 162, 1, 1) 0%,
@@ -19,28 +63,91 @@ header {
   );
 }
 
+@media (max-width: 450px) {
+  #intro {
+    height: 950px !important;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+  #intro {
+    height: 1100px !important;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 990px) {
+  #intro {
+    height: 600px !important;
+  }
+}
+
+.display-1 {
+  font-weight: 500 !important;
+  letter-spacing: 40px;
+}
+
+@media (min-width: 1600px) {
+  .display-1 {
+    font-size: 10rem;
+  }
+}
+
+// /Navigation bar
+
+//Intro image settings
+/* Default height for small devices */
+// #intro-image {
+//   height: 70vh;
+// }
+#headerParagraph {
+  padding: 0;
+}
+#divider {
+  display: inline-block;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+  #headerParagraph {
+    padding-right: 37%;
+  }
+  #divider {
+    display: flex;
+  }
+}
+
+#logo {
+  background: -webkit-linear-gradient(to bottom, #013c58, #00537a);
+  background: linear-gradient(to bottom, #013c58, #00537a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 header h1 {
-  background: -webkit-linear-gradient(#013c58, #00537a);
+  background: -webkit-linear-gradient(to bottom, #f1faee, #f7ede2);
+  background: linear-gradient(to bottom, #f1faee, #f7ede2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 header h5 {
-  font-family: "Playfair Display", serif;
+  // font-family: "Playfair Display", serif;
 
   font-style: normal;
   font-weight: 100;
-  background: -webkit-linear-gradient(#013c58, #00537a);
+  background: -webkit-linear-gradient(to bottom, #f1faee, #f7ede2);
+  background: linear-gradient(to bottom, #f1faee, #f7ede2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 header p {
-    font-family: "Playfair Display", serif;
-    // padding-right: 37%;
+  // font-family: "Playfair Display", serif;
+  // padding-right: 37%;
   font-style: normal;
   font-weight: 100;
-  background: -webkit-linear-gradient(#f1faee, #f7ede2);
+  background: -webkit-linear-gradient(to bottom, #f1faee, #f7ede2);
+  background: linear-gradient(to bottom, #f1faee, #f7ede2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -49,29 +156,98 @@ header p {
   border: none;
   width: 63%;
   //   margin-left: auto;
-//   margin-right: auto;
-  height: 5px;
+  //   margin-right: auto;
+  height: 2px;
   background-color: #ffb703;
 }
 
 .card-title {
-  background: -webkit-linear-gradient(#013c58, #00537a);
+  background: -webkit-linear-gradient(to bottom, #013c58, #00537a);
+  background: linear-gradient(to bottom, #013c58, #00537a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .card-text {
-  background: -webkit-linear-gradient(#013c58, #00537a);
+  background: -webkit-linear-gradient(to bottom, #013c58, #00537a);
+  background: linear-gradient(to bottom, #013c58, #00537a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.card-body {
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#cardImage1 {
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#cardImage2 {
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.card-img-top {
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 section h3 {
-  background: -webkit-linear-gradient(#013c58, #00537a);
+  background: -webkit-linear-gradient(to bottom, #013c58, #00537a);
+  background: linear-gradient(to bottom, #013c58, #00537a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+#carousel {
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+mdb-carousel {
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+@media (min-width: 560px) and (max-width: 750px) {
+  .formularContact .calculator {
+    height: 830px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .formularContact .calculator {
+    height: 830px;
+  }
+}
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #667eea;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(245, 162, 1, 1),
+    rgba(255, 186, 66, 0.3)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to bottom,
+    rgba(245, 162, 1, 1),
+    rgba(255, 186, 66, 0.3)
+  );
+}
 
 footer {
   background: rgb(245, 162, 1);
