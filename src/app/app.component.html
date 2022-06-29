@@ -31,7 +31,7 @@
         </ul>
         <ul class="navbar-nav d-flex flex-row">
           <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="#!">
+            <a class="nav-link" href="https://www.facebook.com/Izolatii-Termice-cu-Spuma-Poliuretanica-110665201694333/">
               <i class="fab fa-facebook"></i>
             </a>
           </li>
@@ -53,7 +53,7 @@
     >
       <div class="mask" style="background-color: rgba(0, 0, 0, 0.5)">
         <div
-          class="container d-flex justify-content-start align-items-center h-100 ms-lg-0 "
+          class="container d-flex justify-content-start align-items-center h-100 ms-lg-0"
         >
           <div
             class="row align-items-sm-center align-items-md-center ps-3 text-center ps-lg-5 ps-md-5 ps-xl-5"
@@ -85,15 +85,15 @@
             <div
               class="container-fluid d-flex justify-content-center align-items-center mt-sm-5 h-100 ms-lg-0 justify-content-lg-start"
             >
-
               <a
                 class="btn btn-light btn-lg fw-bold"
-                href="https://wa.me/{{numardetelefonwhatsapp}}?text={{textinformaturl}}"
+                href="https://wa.me/{{ numardetelefonwhatsapp }}?text={{
+                  textinformaturl
+                }}"
                 role="button"
                 target="_blank"
                 ><i class="fab fa-whatsapp"></i
-                ><span class="ps-2">
-                  Whatsapp</span></a
+                ><span class="ps-2"> Whatsapp</span></a
               >
             </div>
           </div>
@@ -117,7 +117,10 @@
           class="col-lg mb-sm-2 d-flex justify-content-sm-center justify-content-md-center me-md-3 overflow-hidden"
           style="min-width: 300px"
         >
-          <div class="card h-100 rounded-5 hover-shadow align-items-center" style="width: 32rem">
+          <div
+            class="card h-100 rounded-5 hover-shadow align-items-center"
+            style="width: 32rem"
+          >
             <h5 id="servicesTitle" class="card-title text-center pt-3 pb-3">
               Spuma cu celulă deschisă
             </h5>
@@ -147,7 +150,10 @@
           class="col-lg p-1 d-flex justify-content-md-center"
           style="min-width: 300px"
         >
-          <div class="card h-100 rounded-5 hover-shadow align-items-center" style="width: 32rem">
+          <div
+            class="card h-100 rounded-5 hover-shadow align-items-center"
+            style="width: 32rem"
+          >
             <h5 id="servicesTitle" class="card-title text-center pt-3 pb-3">
               Spuma cu celulă închisă
             </h5>
@@ -226,20 +232,20 @@
   </div>
   <div class="container-fluid overflow-hidden">
     <div class="row mb-5 mx-lg-5 mx-md-3">
-      <div class="card-group ">
+      <div class="card-group">
         <!-- Attention to width: 30rem. This can be removed -->
-        <div
+        <!-- <div
           class="col-12 col-md-9 col-lg-5 col-xl-4 shadow-3-strong rounded-5 me-5 mb-5"
-          style="min-width: 300px;"
-        >
-          <div class="card h-100 p-5 pb-0" style="border-radius: 1rem">
+          style="min-width: 300px"
+        > -->
+          <!-- <div class="card h-100 p-5 pb-0" style="border-radius: 1rem">
             <p class="card-title pb-4 fs-3 text-center text-black-50">
               Calculator estimativ
             </p>
             <hr />
             <div class="card-body">
-              <div class="my-md-5">
-                <form>
+              <div class="my-md-5"> -->
+                <!-- <form [formGroup]="calculator" (ngSubmit)="rezultat()">
                   <div class="form-group mb-5">
                     <label
                       class="fs-4 form-label"
@@ -258,6 +264,7 @@
                       >suprafața în metri pătrați. Ex: 5.4(m<sup>2</sup>)</small
                     >
                   </div>
+
                   <div class="form-group mb-5">
                     <label
                       class="fs-4"
@@ -276,7 +283,6 @@
                       >grosimea stratului in centimetri</small
                     >
                   </div>
-
                   <div class="row">
                     <div class="form-floating form-white">
                       <div class="custom-control custom-radio">
@@ -323,16 +329,16 @@
                       >Valoarea in euro fara TVA</small
                     >
                   </div>
-                </form>
-              </div>
+                </form> -->
+              <!-- </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- /Calculator -->
         <!-- Formular Contact -->
         <div
           class="col-12 col-md-9 col-lg-5 col-xl-4 shadow-3-strong rounded-5 mb-5"
-          style="min-width: 300px;"
+          style="min-width: 300px"
         >
           <div class="card h-100 p-5 pb-0" style="border-radius: 1rem">
             <p class="card-title pb-4 fs-3 text-center text-black-50">
@@ -341,7 +347,10 @@
             <hr />
             <div class="card-body">
               <div class="my-md-5">
-                <form action="https://formsubmit.co/bogda995@gmail.com" method="POST">
+                <form
+                  action="https://formsubmit.co/bogda995@gmail.com"
+                  method="POST"
+                >
                   <div class="form-group mb-5">
                     <label class="fs-4" for="nameInput">Nume/Compania:</label>
                     <input
@@ -360,9 +369,6 @@
                       aria-describedby="emailHelp"
                       placeholder=""
                     />
-                    <small id="email" class="form-text text-muted"
-                      >exemplu@mail.com</small
-                    >
                   </div>
                   <div class="form-group mb-5">
                     <label class="fs-4" for="exampleFormControlTextarea1"
@@ -376,7 +382,7 @@
                   </div>
                   <div class="text-center pb-5">
                     <button
-                      class="btn btn-primary border border-3 btn-lg btn-rounded-3 px-5 "
+                      class="btn btn-primary btn-lg btn-rounded-3 px-5"
                       type="submit"
                     >
                       Trimite
@@ -394,10 +400,9 @@
 <!-- /Contact -->
 
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted mt-5 ">
-
+<footer class="text-center text-lg-start bg-light text-muted mt-5 align-items-center">
   <!-- Section: Links  -->
-  <section class="text-white pt-5">
+  <section class="text-white pt-5 d-flex justify-content-center">
     <div class="container text-center text-md-start mt-2">
       <!-- Grid row -->
       <div class="row mt-2">
@@ -427,10 +432,9 @@
           <p><i class="fas fa-home me-3"></i> Alba Iulia, Alba 510001, RO</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
-            info@example.com
+            icspumap@gmail.com
           </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          <p><i class="fas fa-phone me-3"></i>0755758211</p>
         </div>
         <!-- Grid column -->
       </div>
@@ -441,7 +445,7 @@
 
   <!-- Copyright -->
   <div
-    class="text-center p-2 text-white"
+    class="text-center p-2 text-white d-flex justify-content-center"
     style="background-color: rgba(0, 0, 0, 0.05)"
   >
     © 2022 Copyright
